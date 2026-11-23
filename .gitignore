@@ -480,3 +480,50 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+
+# .NET build output
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+
+# Test results
+TestResults/
+coverage/
+coverage.cobertura.xml
+
+# NuGet packages
+*.nupkg
+*.snupkg
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Local development secrets
+secrets.json
+
